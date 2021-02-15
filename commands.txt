@@ -1,0 +1,5 @@
+docker ps -> Lista os containers ativos.
+
+docker run -> Coloca um container para executar.
+
+docker ps -a -> Lista os containers ativos e inativos.
