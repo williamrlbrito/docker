@@ -160,3 +160,35 @@
 - Envia uma imagem para o Docker Hub.
 
   > example: docker push nomedaimagem
+
+# Networks
+
+<strong>docker networks ls</strong> => Lista as redes existentes.
+
+<strong>docker network inspect</strong> => Exibe informações sobre uma rede.
+
+> example: docker network inspect network-name
+
+<strong>docker network create</strong> => Cria uma rede.
+
+> example: docker network create network-name
+
+<strong>parameters</strong>
+
+- <strong>--driver</strong> => Define o driver da rede.
+
+<strong>docker network connect</strong> => Conecta um container a uma rede.
+
+> example: docker network connect network-name container-name
+
+<strong>docker network disconnect</strong> => Desconecta um container de uma rede.
+
+> example: docker network disconnect network-name container-name
+
+<strong>docker network prune</strong> => Remove as redes que não estão sendo usadas.
+
+> example: docker network prune
+
+<strong>docker network rm</strong>
+
+> example: docker network rm network-name
